@@ -4,6 +4,8 @@ const UpdateImage = require('./RemoveImage')
 const UserModel = require('../model/AuthUser')
 
 
+
+
 // restaurant id
 exports.RestaurantID = async (req,res)=>{
 
@@ -218,30 +220,29 @@ exports.CreateNewRes = async (req, res) => {
 exports.ShowsAll = async (req, res) => {
     const pageSize = Number(6)
     const page = Number(req.query.pageNumber) || 1
-    let count = await CartInfoModel.count({
 
-        location: {
-            $nearSphere: {
-                $geometry: {
-                    type: 'Point',
-                    coordinates: [req.params.lat, req.params.long]
-                },
-                $maxDistance: 10 * 1609.34
-            }
-        },
-        productType: req.params.productType
-    })
-    const result = {}
-    if (page < count) {
-        result.next = {
-            page: page + 1,
-        }
-
-    }
 
     try {
 
-
+        let count = await CartInfoModel.count({
+            location: {
+                $nearSphere: {
+                    $geometry: {
+                        type: 'Point',
+                        coordinates: [req.params.lat, req.params.long]
+                    },
+                    $maxDistance: 10 * 1609.34
+                }
+            },
+            productType: req.params.productType
+        })
+        const result = {}
+        if (page < count) {
+            result.next = {
+                page: page + 1,
+            }
+    
+        }
         let cartitems = await CartInfoModel.find({
             location: {
                 $nearSphere: {
