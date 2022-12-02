@@ -1,0 +1,125 @@
+/* .slick-next:before {
+    content: '→';
+    background: red;
+    position: absolute;
+    top: -3rem;
+} */
+
+
+.DEV-IMAGE{
+    width: 100%;
+    padding: 1rem;
+}
+
+.colow-xsw{
+    margin-top: 10rem;
+    background-color: red;
+  
+}
+.masssss{
+    padding: 2rem;
+}
+.Image-swiper{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.add-style{
+ 
+    height: 60px;
+    margin: 0rem auto;
+    width: 100%;
+    border-radius: 1rem;
+    text-align: center;
+}
+.image-app{
+    width: 100%;
+    height: 25rem;
+    margin-top: 4rem;
+    object-fit: cover;
+    
+}
+.test-app{
+    background: #00000057;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    margin-top: -25rem;
+}
+.test-app-h{
+    font-family: 'Mochiy Pop P One';
+    text-transform: capitalize;
+    text-align: center;
+}
+.test-app-s{
+    font-family: 'Mochiy Pop P One';
+    text-transform: capitalize;
+    
+}
+
+.image-slider-image
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+    margin: 1rem auto;
+}
+.test{
+    background-color: thistle;
+    margin-top: 7rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slick-prev{
+    background-color: red
+   }
+   
+   .slick-prev, .slick-next {
+       font-size: 0;
+       line-height: 0;
+       position: absolute;
+       top: 0rem;
+       display: block;
+       width: 20px;
+       height: 20px;
+       padding: 0;
+       transform: translate(0, -50%);
+       cursor: pointer;
+       color: transparent;
+       border: none;
+       outline: none;
+       background: transparent;
+   }
+   
+   .slick-next {
+       right: 2px;
+   }
+   
+   
+   
+   
+   .slick-prev, .slick-next {
+       font-size: 0;
+       line-height: 0;
+       position: absolute;
+       top: 0rem;
+       display: block;
+       width: 20px;
+       height: 20px;
+       padding: 0;
+       transform: translate(0, -50%);
+       cursor: pointer;
+       color: transparent;
+       border: none;
+       outline: none;
+       background: transparent;
+   }
+   .slick-prev {
+       right: 25px !important;
+       position: absolute;
+       margin-left: auto;
+   }

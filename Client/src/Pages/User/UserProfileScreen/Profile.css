@@ -1,0 +1,1071 @@
+.ClassLast-fex{
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.font-all-all-edit {
+        text-transform: capitalize;
+        color: black;
+        font-family: 'Heebo', sans-serif;
+        font-size: 14px;
+    }
+
+.show-fex{
+    display: flex;
+    padding: 0rem;
+    margin: 0rem;
+    flex-direction: column;
+  
+}
+
+.color-avtive
+{
+    color:  #ff9d97;
+    text-transform: capitalize;
+}
+
+.valje
+{
+    background: #ff9d97;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.remove-all-address{
+
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.remove-all-address span:nth-last-child(1){
+    color: red;
+    margin-right: 0.3rem;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.show-sort-address{
+    padding: 0rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.font-size-work.icons-icons{
+   font-size: 25px;
+   font-size: 25px;
+   border-radius: 50%;
+   background: #eee;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   width: 40px;
+}
+.font-size-work.color-avtive
+{
+    font-size: 25px;
+    font-size: 25px;
+    border-radius: 50%;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color:  #ff9d97;
+    text-transform: capitalize;
+}
+.checkout-address
+{
+    background: #ff9d97;
+    padding: 0.5rem;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+   
+}
+
+.font-size-work{
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: bold;
+}
+.bike-User{
+    width: 30px;
+    height: 30px;
+    object-fit:cover
+}
+.margin-left-class{
+    margin-left: auto;
+
+}
+.first-left-box{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.box-infoUser{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+}
+.address-list-edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    width: 100%;
+}
+.address-list-edit-children{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-transform: capitalize;
+}
+.Remove-div-all{
+    margin-left: auto;
+    position: relative;
+}
+.error-handle-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.Margin-top{
+ 
+    margin-bottom: 2rem;
+ 
+}
+.color-last-items-User{
+    text-transform: capitalize;
+}
+.Center-loading{
+    margin-top: 1rem;
+    text-align: center;
+}
+.className-linkleft{
+    margin-left: 0.5rem;
+}
+.className-link{
+    text-decoration: none;
+}
+.routx-{
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.routx- h1{
+    color: rgba(255, 59, 47, 0.52);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.class-edit-postion{
+    transition: all 2s;
+    display: none;
+}
+.class-edit-postion span{
+    padding: 0.4rem;
+}.class-edit-postion span:hover{
+    color: white;
+}
+.class-edit-postion.hidden{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    margin: 0rem;
+    background-color: #eee;
+    border-radius: 0.4rem;
+    position: absolute;
+    top: 1.9rem;
+    left: -3rem;
+    transition: all 2s;
+    z-index: 343434;
+
+}
+
+.company.bottom-xp{
+ 
+  margin-top: 1rem;
+}
+.Empty-Page{
+    text-align: center
+}
+.visa-image{
+    width: 30px;
+    height: 30px;
+}
+.Edit-updateCart{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.first-class-add-remove{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.first-class-add-remove span:nth-of-type(1){
+    margin-left: 0.5rem;
+}
+
+.dddddddd
+{
+    color: #000000bf;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0.6rem;
+}
+.text-align-center-h1{
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+
+
+
+
+
+.bike-User.add-size{
+    width: 30px;
+    height: 30px;
+}
+.color-family-User
+{    color: black;
+    font-size: 16px;
+    font-family: system-ui;
+    text-transform: capitalize;
+}
+.color-family-User.add-size{
+    font-size: 13px;
+}
+.color-last-items-User.add-size{
+    font-size: 13px;
+}
+.add-padding-number-clos{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.flex-class-center{
+    margin-top: 3rem;
+}
+.Type-Input-class{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.Type-Input-class:focus {
+    color: #212529;
+    background-color: white;
+    border-color: #eee;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #eee;
+}
+.foodname{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    object-fit: cover;
+    display: block;
+    margin : 0rem auto
+}
+
+.className-infoUser.PAYMENT-FIX{
+
+    margin-top: 0.5rem;
+    display: flex;
+}
+.className-infoUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    cursor: pointer;
+    transition: all 3s;
+    border-radius: 0.4rem;
+}
+
+.className-infoUser.add-style-remove-padding{
+    background-color: rgba(238, 238, 238, 0.345);
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+
+}
+
+.scroll-down-body{
+    height: 400px;
+    overflow-y: auto;
+}
+.myprofile h1{
+    font-family: system-ui;
+}
+.Form-ckidren-box{
+    margin-top: 2rem;
+}
+.buttom-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.buttom-class{
+    width: 45%;
+}
+
+
+.padding-null{
+    margin-top: 3rem;
+}
+.margin-top-class{
+ margin-top:5rem
+}
+/* .heigth-margin{
+    height: 400px;
+} */
+
+.animationRow{
+   transition: all 2s;
+   animation: leftxp 2s 1;
+}
+@keyframes leftxp {
+
+    0%{
+        transform: translate(-100%, 0%);
+    }
+    0%{
+        transform: translate(-100%, 0%);
+    }
+    100%{
+        transform: translate(0%, 0%);
+    }
+    
+}
+.cancel-add{
+   
+   margin-top: 2rem;
+}
+.text-error{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+label {
+    display: inline-block;
+    margin-left: 0.4rem
+}
+.cancel-add-text{
+    width: 100%;
+    height: 45px;
+    border-radius: 0.4rem;
+    text-align: center;
+    line-height: 44px;
+    text-transform: capitalize;
+}
+
+.box-navbar{
+   display: flex;
+    padding: 0rem;
+    cursor: pointer;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.margin-bottom-class{
+    margin-top: 1rem;
+    border-bottom : 1px solid #eee
+}
+
+.Personal-Info{
+   
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 0.9rem;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.733);
+}
+.action-personal{
+    color: rgba(255, 59, 47, 0.52);
+    border-bottom: 1px solid rgba(255, 59, 47, 0.52);
+  
+}
+
+
+.class-box{
+    display: flex;
+    justify-content :flex-start;
+    margin-top: 4rem;
+   
+}
+
+.classInfo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+.classInfo-email{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    opacity: 0.6;
+}
+.classInfo-email.add-margin-left{
+    margin-left: 3rem;
+}
+.classInfo-email span{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.class-profile-name{
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-profile-name.add-notleft.notLeft h1{
+
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -1rem;
+    margin-bottom: 0.5rem;
+}
+.image-box-css{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #eee;
+    text-align: center;
+    line-height: 50px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Heebo', sans-serif;
+    color: black;
+  
+}
+
+.yourFavorutnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+
+.margin-top-{
+    margin-top: 2rem;
+}
+
+.Favourites-items{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.Favourites-items-category{
+    width: 100%;
+    object-fit: cover;
+    height: 230px;
+    
+}
+.box-name{
+    padding: 0.3rem;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.driver-class{
+    width: 20px;
+    height: 20px;
+}
+.class-driver{
+    display: flex;
+    align-items: center;
+}
+.class-driver span{
+ margin-left: 0.5rem;
+ color: #383737;
+ font-size: 14px;
+ text-transform: capitalize;
+}
+.aad-top-style{
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addToCart{
+   margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  
+    height: 45px;
+}
+.addToCart-option{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.firstBack{
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    
+}.firstBack-option {
+    color: #383737;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+
+.des-text p{
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+.box-cart-Info{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .padding-null{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .box-navbar{
+        margin: 0rem;
+        padding: 0rem;
+        display: block;
+       
+     }
+     
+     .Personal-Info{
+
+       border-top: 1px solid #eee;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #eee;
+        font-size: 20px;
+     }
+     .border-bottom-style{
+        border-bottom: none;
+     }
+     .margin-bottom-class{
+      
+        border-bottom : none
+     }
+     /* .myprofile h1{
+         margin-left: 1rem;
+     } */
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    .Personal-Info{
+        font-size: 19px;
+    }
+    .classInfo-email.add-margin-left{
+        margin-left: 0px;
+    }
+   
+  }
+
+
+
+
+.box-Setting{
+    margin-top: 4rem;
+}
+.box-setting-children{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+   
+    padding: 0rem;
+    margin-bottom: 1rem
+
+
+}.box-setting-children .cheildren-span{
+    color: black;
+    font-size: 16px;
+    font-family: system-ui;
+    text-transform: capitalize;
+
+}
+.box-children-input{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.check-box-me{
+    width: 60px;
+    height: 30px;
+    background: #eee;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.class-close-image{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ff9d97;
+    overflow: hidden;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+}
+.class-close-image.add-left-black{
+    margin-left: auto;
+    display: block;
+}
+.check-box-me-c{
+    width: 41%;
+    height: 100%;
+    background: red;
+    display: block;
+    border-left-width: 9px;
+    border-right: ridge;
+}
+.check-box-me-c.check-box-me-left{
+margin-left: auto;
+border-left-width: 9px;
+border-left: ridge;
+}
+.Order_List_User_Info{
+    margin-top: 4rem;
+    margin-left: 0rem;
+    padding: 0rem;
+    height: 400px;
+    
+}
+
+.Order_List_User_Info h1{
+    color: black;
+    font-size: 16px;
+    font-family: system-ui;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+
+
+.first_Order{
+    background-color: rgb(238 238 238 / 39%);
+    box-shadow: 0rem 0rem 0.1rem 0rem black;
+    border-radius: 0.2rem;
+    opacity: 0.8;
+    transition: .3s;
+    width: 100%;
+    padding: 0.2rem;
+}
+.first_Order:hover{
+    opacity: 1;
+}
+.navcancel{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.avbryta{
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: capitalize;
+
+}
+
+.Order_List_list{
+    padding: 0rem ;
+    margin: 0rem auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.TextList{
+    text-transform: capitalize;
+    margin-left: 0.5rem;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 13px;
+}
+.Order_List_list p{
+    font-size: 16px;
+    padding: 0rem;
+    width: 100%;
+    display: block;
+    margin: 0rem auto;
+    text-transform: capitalize;
+}
+
+.Order_List_Order{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+  
+}
+.Order_List_Order_Image{
+    width: 50px;
+    height:  50px;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+    transform-style:preserve-3d;
+    transition: .6s;
+}.Order_List_Order_Image:hover{
+    transform: scale(1.2);
+}
+.Order_List_Order_Info{
+   
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: inherit;
+    width: auto;
+    justify-content: center;
+
+}
+
+.order__qty_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+    align-items: center;
+}
+.items__total{
+    border-top: 1px solid #ff000094;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+
+.Add_open_Adress{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    transition: opacity 2s , visibility 2s  , transform 2s;
+    background-color: rgba(0, 0, 0, 0.445);
+
+    z-index: 34534543;
+    visibility: hidden;
+    flex-direction: column;
+}
+
+.Add_open_Adress.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.Add_change_adress{
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    margin: 0rem auto;
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.test_code{
+
+    background-color: transparent;
+   
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+    padding: 0rem;
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    position: relative;
+    cursor: pointer;
+ 
+}
+
+.close_items{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .6s;
+    border-radius: 10%;
+    background-color: #ff000094;
+    width: 25px;
+    height: 25px;
+    color: white;
+    
+    box-shadow: 0.1rem 0.1rem  0rem 0rem ;
+    transform-style: preserve-3d;
+    text-align: center;
+}.close_items:hover{
+    opacity: 1;
+    transform: rotate(10deg);
+}
+
+.Form_Address{
+    margin-top: 4rem;
+
+}
+
+
+.Add_with_width{
+    width: 250px;
+   
+    
+}
+.Address_My{
+    padding: 0.6rem;
+
+    text-transform: capitalize;
+    transform-style: preserve-3d;
+    transition: .6s;
+    cursor: pointer;
+    width: 150px;
+}.Address_My:hover{
+    transform: translate(-20px);
+    
+}
+
+
+
+.Billing_Address .form-label {
+    margin-bottom: .5rem;
+    font-size: 14px;
+    font-family: monospace;
+    color: brown;
+    text-transform: capitalize;
+}
+.Billing_Address .form-label::first-letter{
+    color: red;
+}
+.Link_Home{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.class-dina-favoriter{
+    margin-top: 5rem;
+
+}
+
+
+.Add-din{
+    width: 40px;
+    height: 40px;
+    color: rgba(255, 59, 47, 0.52);
+}
+
+.flex-boxc{
+    display: flex;
+    flex-direction: row;
+}
+.flex-boxc-left{
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: 1px solid #eee;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+
+
+
+.ClassNamePayment{
+    padding: 1rem;
+    height: 73vh;
+    overflow: hidden;
+    overflow-y: auto;
+    
+}
+
+.postion-buttom{
+    padding: 1rem;
+    width: 100%;
+}
+
+
+.box-alert{
+   
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+   padding: 1rem;
+    border-bottom: 3px solid #eee;
+  
+}
+.class-close{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 50%;
+    text-align: center;
+    
+
+    
+    
+}.class-close span{
+    line-height: 25px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.title-add .title-add-profile{
+    color: black;
+    padding: 0rem;
+    margin: 0rem;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-family: 'Heebo', sans-serif;
+
+}
+.scrollAlert{
+    height: 550px;
+    overflow:hidden;  
+}
+.scroll-bottom-style{
+    padding: 1rem;
+}
+
+.MyPhone{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.selectionHome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.openSelection{
+    
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    font-size: 19px;
+    border-radius: 0.5rem;
+    height: 100px;
+
+}
+.openSelection.action{
+    background-color: #ff3b2f85;
+}
+
+.openSelection span {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.Image-selection{
+
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+@media  (max-width: 400px) {
+    .scrollAlert{
+        height: 100vh;
+    }
+    .openSelection{
+        width: 90px;
+    }
+}

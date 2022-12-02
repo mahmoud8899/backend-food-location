@@ -1,0 +1,70 @@
+
+
+.Image-something{
+
+    margin-top: 6rem;
+}
+.cooking{
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0rem auto;
+    transition: all 9s;
+    animation: rout 9s infinite;
+    display: block;
+   
+
+}
+@keyframes rout {
+
+    0%{
+        transform: rotate(40deg);
+    }
+    30%{
+        transform: rotate(-40deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    70%{
+        transform: rotate(-40deg);
+    }
+    100%{
+        transform: rotate(40deg);
+    }
+    
+}
+
+.flex-something{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flex-something-first{
+    text-transform: capitalize;
+    font-family: 'Mochiy Pop P One';
+    color: #ff9d97;
+}
+
+.flex-something-first-text {
+    font-size: 17px;
+    margin: 0.5rem;
+}
+
+.back-buttom{
+    background-color: #ff9d97;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    opacity: 0.8;
+
+
+}.back-buttom span{
+    color: white;
+    text-transform: capitalize;
+    
+}

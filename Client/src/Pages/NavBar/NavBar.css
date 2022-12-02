@@ -1,0 +1,241 @@
+/* font-family: 'Mochiy Pop P One', sans-serif; */
+.sdfsdfsdfsdfsdf{
+    background-color: red;
+}
+.Searching-result-page{
+    position: absolute;
+    top: 3.5rem;
+    left: 1.3rem;
+    width: 90%;
+    z-index: 546446756756;
+   
+
+}
+.rowFexColo{
+    border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.testincode{
+    padding: 0.2rem;
+}
+
+.loin-style{
+   
+    width: 100px;
+    padding: 0rem;
+    display: block;
+    margin-left:  auto;
+    text-align: center;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #eee;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #eee ;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.handel-navbar{
+
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+
+ 
+    
+}
+.Type-input-searching
+{
+    background-color: transparent;
+    border-radius: 0.2rem;
+    border: 1px solid #eee;
+    text-align: center;
+    width: 100%;
+    outline: none;
+    height: 2rem;
+    font-size: 15px;
+    padding: 0rem;
+    margin: 0rem;
+ 
+   
+}
+.Type-input-searching:focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0rem 0rem 0rem 1px #eee;
+    transition: all 3s;
+}
+.line-size
+{
+    font-family: system-ui;
+    font-size: 13px;
+}
+
+
+
+.Type-input-searching.add-left{
+    text-align: left;
+    padding-left: 0.5rem;
+    transition: all 3s;
+}
+
+
+
+
+
+.handel-navbar.add-left{
+    flex-direction: row;
+}
+
+
+
+.flex-profile{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+.flex-profile span{
+    color: #383737;
+    font-size: 14px;
+    text-transform: capitalize;
+}.flex-profile:hover{
+    color: black;
+}
+
+.font-fex{
+    opacity: 0.7;
+
+}
+.handel-navbar.left-add{
+
+    text-align: left;
+   
+}
+
+.routeNmae{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffb8b3;
+    overflow: hidden;
+    font-size: 10px;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    color: #fec7c2;
+}
+
+
+
+.HoME_link_Home{
+    text-decoration: none;
+    color: white;
+    
+}.HoME_link_Home:hover{
+    color: white;
+    opacity: 1;
+}
+.NavBarList{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0.2rem auto;
+
+    
+  
+}
+
+
+.First_NavBarList_writ{
+    cursor: pointer;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.First_NavBarList_writ_name{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #0000009c;
+}
+
+
+
+
+.List_Order{
+    position: relative;
+    justify-content: center;
+    height: 27px;
+    display: flex;
+    width: 100px;
+}
+
+
+
+.bg-dark {
+    background-color: #212529d6!important;
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+    border-bottom-color: white;
+    margin-top: 4rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.font-nav-login{
+    font-size: 17px;
+}
+
+
+.close-pp-pp-image-add{
+    color: white;
+    font-size: 22px;
+}
+@media only screen and (max-width: 460px) {
+
+    .image-searching-{
+        display: none;
+        transition: all 3s;
+    }
+    .font-nav-login{
+        font-size: 14px;
+    }
+   
+}
+
+
+

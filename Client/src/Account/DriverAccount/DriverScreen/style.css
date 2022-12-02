@@ -1,0 +1,339 @@
+.style{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    margin-top: 6rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
+}
+.FONT {
+    font-size: 13px;
+}
+.date{
+
+    font-size: 10px;
+    text-transform: capitalize;
+    color: brown;
+}
+.datename{
+    font-size: 12px;
+}
+.image{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.router {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px;
+    color: black;
+    padding: 5px;
+    
+
+}
+.logout {
+    width:  100px;
+    margin-left: auto;
+}
+.firstClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    
+  
+
+}
+.firstClass h1{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.firstClassimage{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.ulprofile {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    text-transform: capitalize;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: unset;
+    padding: 0rem;
+    flex-wrap: wrap;
+}
+
+.box-chat{
+  
+    padding: 10px;
+    border-radius: 1rem;
+    
+}
+.first-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 0rem;
+    margin: 0rem;
+    height: 3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+   
+}
+
+.left-name {
+    margin-left:  10px;
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+}
+.close-chat {
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+  
+    line-height: 25px;
+    text-align: center;
+
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.left-name .online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+    margin-left: 0.5rem;
+}
+.driver-name {
+    margin-bottom: 0.3rem;
+    margin-left: 0.5rem;
+    text-transform: capitalize;
+}
+.driver-name span
+{
+    font-family: cursive
+}
+.chat-box{
+    border-radius: 1rem;
+    
+    
+}
+.chat-message {
+    background: #eee;
+    height: 240px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.coustom-message {
+    text-align: right;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+    word-break: break-all;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.coustom-message span{
+    text-transform: capitalize;
+}
+.server-message{
+    text-align: left;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+    word-break: break-all;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.server-message span{
+    text-transform: capitalize;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navList {
+
+    font-size: 14px;
+    text-transform: capitalize;
+    
+  
+}
+.navimage{
+    object-fit: cover;
+    width: 10px;
+    height: 10px;
+   border-radius: 50%;
+   margin-right: 10px;
+   
+ 
+
+}
+
+.navList span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttom-chat {
+    padding: 0.5rem;
+}
+.firstUl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6rem;
+    background: #eee;
+    list-style: none;
+    padding: 0rem;
+    overflow: hidden;
+    word-break: break-all;
+   
+}
+.firstUlreves {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    text-transform: capitalize;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: unset;
+    margin-top: 6rem;
+    padding: 0rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.firstUl li ,.firstUlreves li {
+   
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-left: 0.4rem;
+    margin-top:  0.4rem;
+}
+.firstUl li:hover
+{
+    opacity: 1;
+}
+.firstUl li a ,.firstUlreves li a{
+    cursor: pointer;
+}
+.config{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0rem 0rem 0rem 0.1rem black;
+    padding: 0.2rem;
+    position: relative;
+}
+
+.resturant {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Otomanopee One';
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 13px;
+    
+}
+
+.difrent {
+    font-size: 14px;
+    cursor: pointer;
+    font-family: system-ui;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-left : 10px
+}
+.difrent:hover{
+opacity: 1;
+color:   rgb(255, 59, 47);
+}
+
+.buttom {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: 'Otomanopee One';
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.20 s;
+}
+
+.lasttime{
+    display: flex;
+    flex-direction: row-reverse;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+
+
+.ulplus {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0rem;
+    overflow: hidden;
+}
+.ulplus li {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    
+    line-height: 30px;
+    cursor: pointer;
+}
+.ulplus ul a {
+    cursor: pointer;
+}
+.adduploading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width:  100%;
+    background-color: green;
+}
+.inputAll{
+    background-color: red;
+    width:  80%;
+}
