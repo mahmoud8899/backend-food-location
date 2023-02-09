@@ -1,7 +1,5 @@
-import { Modal } from 'react-bootstrap'
 import { HiOutlineX } from 'react-icons/hi'
-
-
+import Modal from 'react-bootstrap/Modal'
 
 
 
@@ -21,7 +19,7 @@ export default function InformationServices(props) {
 
 
 
-    return <Modal show={show} onHide={HandleHide}>
+    return <Modal show={show} onHide={HandleHide} fullscreen='sm-down'>
 
         <div className='box-alert'>
 

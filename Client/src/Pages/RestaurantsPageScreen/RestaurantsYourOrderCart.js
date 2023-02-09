@@ -1,4 +1,3 @@
-import { Modal } from 'react-bootstrap'
 import { MyOderImage } from '../../Assistant/MyOrderImage'
 import { useContext, useState, } from 'react'
 import ImageScreen from '../../Components/ImageScreen/ImageScreen'
@@ -11,6 +10,7 @@ import Styles from '../../Components/Update/StylesComponents/style'
 import { HiOutlineX ,HiArrowNarrowLeft } from 'react-icons/hi'
 import {CgComment} from 'react-icons/cg'
 import './style.css'
+import Modal from 'react-bootstrap/Modal'
 export default function RestaurantsYourOrderCart(props) {
 
     const { setYourOrder, yourOrder } = props
@@ -39,7 +39,7 @@ export default function RestaurantsYourOrderCart(props) {
 
 
 
-    return <Modal show={yourOrder} onHide={() => setYourOrder(!yourOrder)}>
+    return <Modal  fullscreen='sm-down' show={yourOrder} onHide={() => setYourOrder(!yourOrder)}>
 
 
         <div className='overflow-hidden'>

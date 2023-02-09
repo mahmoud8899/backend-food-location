@@ -1,8 +1,9 @@
-import { Modal,Col,Row } from 'react-bootstrap'
+import { Col,Row } from 'react-bootstrap'
 import ButtomClick from '../../Buttom/Buttom'
 import Styles from '../StylesComponents/style'
 import { HiOutlineX  } from 'react-icons/hi'
 
+import Modal from 'react-bootstrap/Modal'
 export default function RemoveAlrt(props) {
     const { show, setShow, HandleRemove, TextRemove } = props
 
@@ -15,7 +16,7 @@ export default function RemoveAlrt(props) {
 
 
     return show?.value && <Modal show={show?.value}
-        onHide={() => HandlClose()}>
+        onHide={() => HandlClose()} fullscreen='sm-down'>
 
 
         <div className='body-category'>

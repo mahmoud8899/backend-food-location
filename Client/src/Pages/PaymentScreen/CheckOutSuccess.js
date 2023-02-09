@@ -1,4 +1,3 @@
-import { Modal } from 'react-bootstrap'
 import LoadingScreen from '../../Components/LoadingScreen/LoadingScreen'
 import { useSelector, useDispatch } from 'react-redux'
 import { CheckOutConfirming } from '../../Assistant/ValidationPayment'
@@ -9,6 +8,7 @@ import { ErrorServer } from '../../Assistant/TextError'
 import './PaymentScreen.css'
 import { Link } from 'react-router-dom'
 import { RemoveAllCartOne } from '../../redux/Action/Cart_Action'
+import Modal from 'react-bootstrap/Modal'
 export default function CheckOutSuccess(props) {
 
     // params [1] : time real time 
@@ -44,7 +44,7 @@ export default function CheckOutSuccess(props) {
 
 
 
-    return <Modal show={openCheckOut} onHide={() => setOpenCheckOut(true)} >
+    return <Modal fullscreen='sm-down'  show={openCheckOut} onHide={() => setOpenCheckOut(true)} >
 
         <LoadingErrorHandle
             loading={loading}

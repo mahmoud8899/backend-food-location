@@ -1,4 +1,4 @@
-import { Modal, Form } from 'react-bootstrap'
+import {  Form } from 'react-bootstrap'
 import ButtomClick from '../../Components/Buttom/Buttom'
 import Styles from '../../Components/Update/StylesComponents/style'
 import { TheRating } from '../../Assistant/Selection'
@@ -10,6 +10,7 @@ import { HiOutlineX } from 'react-icons/hi'
 import { ErrorServer } from '../../Assistant/TextError'
 import { useState } from 'react'
 import './style.css'
+import Modal from 'react-bootstrap/Modal'
 
 export default function RestaurangetsProductRating(props) {
     const { showRating, setShowRating, cartid,ChangeParams } = props
@@ -65,7 +66,7 @@ export default function RestaurangetsProductRating(props) {
 
     }
 
-    return <Modal show={showRating} onHide={HandleClose}>
+    return <Modal  fullscreen='sm-down' show={showRating} onHide={HandleClose}>
 
 
         <HandleLoadingPage

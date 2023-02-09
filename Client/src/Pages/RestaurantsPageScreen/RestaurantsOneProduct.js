@@ -1,5 +1,4 @@
 import { useContext, useEffect, useState } from 'react'
-import { Modal } from 'react-bootstrap'
 import { MyOderImage } from '../../Assistant/MyOrderImage'
 import { product_IDAction } from '../../redux/Action/Product_Action'
 import { useDispatch, useSelector } from 'react-redux'
@@ -8,9 +7,11 @@ import CurrentScreen from '../../Components/Update/CurrentScreen/CurrentScreen'
 import ImageScreen from '../../Components/ImageScreen/ImageScreen'
 import ProductBackDetail from '../../Components/Update/ProductBackDetail/ProductBackDetail'
 import { FilterCartDetials } from '../../Components/Update/UseContext/FilterRestarangeProduct'
-import './style.css'
 import { HiOutlineX } from 'react-icons/hi'
-export default function RestaurantsOneProduct(props) {
+import Modal from 'react-bootstrap/Modal'
+import './style.css'
+
+const RestaurantsOneProduct = (props) => {
     const {
         openCartProduct,
         setOpenCartProduct,
@@ -52,7 +53,7 @@ export default function RestaurantsOneProduct(props) {
 
     return loading ? <LoadingScreen /> : openCartProduct?.value ?
 
-        <Modal show={openCartProduct?.value} onHide={handleClose}>
+        <Modal fullscreen='sm-down' show={openCartProduct?.value} onHide={handleClose} >
 
             <div className='scroll-CART'>
                 {!productInfo ?
@@ -69,10 +70,10 @@ export default function RestaurantsOneProduct(props) {
                                 />
 
                                 <div className='box-close' onClick={(e) => setOpenCartProduct({ value: false, id: '' })}>
-                                <HiOutlineX
-                                
-                                className='close-pp-pp-image' />
-                                   
+                                    <HiOutlineX
+
+                                        className='close-pp-pp-image' />
+
                                 </div>
 
 
@@ -125,7 +126,7 @@ export default function RestaurantsOneProduct(props) {
                                     setOpenCartProduct={setOpenCartProduct}
                                     CheckOutReload={CheckOutReload}
                                     ScreenAdd
-                                    
+
                                 />
                             </div>
 
@@ -172,3 +173,5 @@ export default function RestaurantsOneProduct(props) {
 
 }
 
+
+export default RestaurantsOneProduct

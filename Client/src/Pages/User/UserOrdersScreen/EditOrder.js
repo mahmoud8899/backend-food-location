@@ -1,4 +1,4 @@
-import { Modal, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import ButtomClick from '../../../Components/Buttom/Buttom'
 import CodeError from '../../../Components/CodeError/CodeError'
 import { ErrorTextInput, ErrorServer } from '../../../Assistant/TextError'
@@ -12,6 +12,7 @@ import { CancelOrderError, CleringData } from '../../../Components/CloseScreen/C
 import { RiCheckFill } from 'react-icons/ri'
 import { HiOutlineX } from 'react-icons/hi'
 import { Fragment,  useState } from 'react'
+import Modal from 'react-bootstrap/Modal'
 export default function EditOrder(props) {
     // 
 
@@ -89,7 +90,7 @@ export default function EditOrder(props) {
 
 
 
-    return <Modal show={show?.value} onHide={HandleClose}>
+    return <Modal show={show?.value} onHide={HandleClose} fullscreen='sm-down'>
 
         <HandleLoadingPage
             loading={loading}

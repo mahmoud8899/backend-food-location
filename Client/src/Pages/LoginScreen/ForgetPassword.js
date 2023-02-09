@@ -1,5 +1,5 @@
 import { HandleError } from '../../Assistant/HandleError'
-import { Col, Container, Form, Row, Modal } from 'react-bootstrap'
+import { Col, Container, Form, Row } from 'react-bootstrap'
 import ButtomClick from '../../Components/Buttom/Buttom'
 import { Fragment, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -15,7 +15,7 @@ import { BiShow } from 'react-icons/bi'
 import Styles from '../../Components/Update/StylesComponents/style'
 import './style.css'
 
-
+import Modal from 'react-bootstrap/Modal'
 
 
 
@@ -195,7 +195,7 @@ export default function ForgetPassword({ match }) {
             </Col>
         </Row>
 
-        <Modal show={successFully} onHide={() => setSuccessFully(!successFully)} >
+        <Modal fullscreen='sm-down' show={successFully} onHide={() => setSuccessFully(!successFully)} >
             <Link className='add-padding-loaction' to={{ pathname: '/uppsala' }} >
                 <h1 className='font-edit'>lösenordet har ändrats</h1>
                 <span>Jag kan logga in härifrån eller gå till startsidan</span>

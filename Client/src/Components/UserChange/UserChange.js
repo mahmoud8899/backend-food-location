@@ -1,4 +1,3 @@
-import {  Modal } from 'react-bootstrap'
 import { MyOderImage } from '../../Assistant/MyOrderImage'
 import ButtomClick from '../Buttom/Buttom'
 import { ChangeUserInfo } from '../../redux/Action/Auth_Action'
@@ -15,6 +14,7 @@ import { Fragment, useState } from 'react'
 import TheInputForm from '../TheInputForm/TheInputForm'
 import { RiCheckFill } from 'react-icons/ri'
 import ImageScreen from '../ImageScreen/ImageScreen'
+import Modal from 'react-bootstrap/Modal'
 export default function UserChange(props) {
 
 
@@ -89,7 +89,7 @@ export default function UserChange(props) {
     }
 
 
-    return <Modal show={openName} onHide={handleClose}>
+    return <Modal show={openName} onHide={handleClose} fullscreen='sm-down'>
 
         <HandleLoadingPage
             loading={loading}

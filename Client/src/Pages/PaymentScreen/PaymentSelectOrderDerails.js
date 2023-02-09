@@ -1,4 +1,4 @@
-import { Modal } from 'react-bootstrap'
+import Modal from 'react-bootstrap/Modal'
 import ButtomClick from '../../Components/Buttom/Buttom'
 import PaymentDrivery from './HandleDetalis/PaymentDrivery'
 import PaymentDetailsAddres from './HandleDetalis/PaymentDetailsAddres'
@@ -45,6 +45,7 @@ export default function PaymentSelectOrderDerails(props) {
 
 
     return <Modal
+    fullscreen='sm-down'
         show={openNavBarList}
         onHide={handleClose}
 

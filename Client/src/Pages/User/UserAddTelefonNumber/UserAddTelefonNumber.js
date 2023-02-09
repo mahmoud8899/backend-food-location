@@ -1,4 +1,4 @@
-import { Form, Modal, Row, Col } from 'react-bootstrap'
+import { Form,  Row, Col } from 'react-bootstrap'
 import ButtomClick from '../../../Components/Buttom/Buttom'
 import { Fragment, useEffect, useState } from 'react'
 import { ValtionMe } from '../../../Assistant/ValtionMe'
@@ -12,6 +12,7 @@ import TheInputForm from '../../../Components/TheInputForm/TheInputForm'
 import { HiOutlineX } from 'react-icons/hi'
 import { RiCheckFill } from 'react-icons/ri'
 import '../UserProfileScreen/Profile.css'
+import Modal from 'react-bootstrap/Modal'
 export default function UserAddTelefonNumber(props) {
 
     const { openAddNumber, setOpenAddNumber } = props
@@ -76,7 +77,7 @@ export default function UserAddTelefonNumber(props) {
 
 
 
-    return openAddNumber && <Modal show={openAddNumber} onHide={HandleClose}>
+    return openAddNumber && <Modal  fullscreen='sm-down' show={openAddNumber} onHide={HandleClose}>
 
         <div className='add-padding-number'>
             <HandleLoadingPage

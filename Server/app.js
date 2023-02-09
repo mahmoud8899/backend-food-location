@@ -6,14 +6,14 @@ const path = require('path')
 require('dotenv').config()
 
 const mongoose = require('mongoose')
-
+mongoose.set('strictQuery', true)
 mongoose.connect(
     process.env.MONGOOSE_URL,
     (err) => {
-     if(err) console.log(err) 
-     else console.log("mongdb is connected");
+        if (err) console.log(err)
+        else console.log("mongdb is connected");
     }
-  );
+);
 
 
 app.set('view engine', 'ejs')
@@ -61,10 +61,10 @@ const ContactRouter = require('./router/ContactRouter')
 const AboutRouter = require('./router/AboutRoute')
 const CookRouter = require('./router/CookRoute')
 const DriverRouter = require('./router/DriverRouter')
-const MessageChat =  require('./router/MessageChatRouter')
-const cartinfoRouter =  require('./router/CartInfoRoute')
+const MessageChat = require('./router/MessageChatRouter')
+const cartinfoRouter = require('./router/CartInfoRoute')
 const FoodTypesRouter = require('./router/FoodTypesRouter')
-const LocationRoute  = require('./router/LocationRoute')
+const LocationRoute = require('./router/LocationRoute')
 app.use('/api/',
     [
         RouteUser,
@@ -87,12 +87,6 @@ app.use('/api/',
 
 
     ])
-
-
-
-
-
-
 
 
 

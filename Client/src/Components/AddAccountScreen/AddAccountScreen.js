@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useState } from 'react'
-import { Form, Modal } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
 import { HiOutlineX } from 'react-icons/hi'
 import { useDispatch, useSelector } from 'react-redux'
 import { ChangeCode, ValidationAccount, ValidationUpdatedAccount } from '../../Assistant/ValidationPayment'
@@ -14,7 +14,7 @@ import TheInputForm from '../TheInputForm/TheInputForm'
 import { RiCheckFill } from 'react-icons/ri'
 import {ErrorTextInput} from '../../Assistant/TextError'
 
-
+import Modal from 'react-bootstrap/Modal'
 
 
 
@@ -117,7 +117,7 @@ export default function AddAccountScreen(props) {
 
 
 
-    return <Modal show={openAddAccount} onHide={HandleClose}>
+    return <Modal show={openAddAccount} onHide={HandleClose} fullscreen='sm-down'>
 
         <HandleLoadingPage
             loading={loading}

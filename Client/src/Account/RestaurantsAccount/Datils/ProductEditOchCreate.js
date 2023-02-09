@@ -9,7 +9,7 @@ import { UploadingNewImageProduct, ProductUpdatedAction } from '../../../redux/A
 import { TheProductRemoveAndUpdated } from '../../../Components/CloseScreen/CloseScreen'
 import HandleLoadingPage from '../../../Components/Update/HandleLoadingPage/HandleLoadingPage'
 import Styles from '../../../Components/Update/StylesComponents/style'
-import { Modal, Form } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { Fragment, useEffect, useState } from 'react'
 import TheInputForm from '../../../Components/TheInputForm/TheInputForm'
@@ -19,6 +19,7 @@ import {ErrorTextInput} from '../../../Assistant/TextError'
 import { RiCheckFill } from 'react-icons/ri'
 import { HiOutlineX } from 'react-icons/hi'
 import '../style.css'
+import Modal from 'react-bootstrap/Modal'
 export default function ProductEditOchCreate(props) {
 
     const { setShow, show, userInfo, ListCategoryUX } = props
@@ -185,7 +186,7 @@ export default function ProductEditOchCreate(props) {
 
 
 
-    return <Modal show={show?.value} onHide={() => HandleClose()} >
+    return <Modal fullscreen='sm-down'  show={show?.value} onHide={() => HandleClose()} >
 
         <HandleLoadingPage
             loading={loading}

@@ -1,4 +1,4 @@
-import { Form, Modal } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
 import ButtomClick from '../../../Components/Buttom/Buttom'
 import { ChangeCode, ValidationCategory } from '../../../Assistant/ValidationPayment'
 import { useEffect, useState, Fragment } from 'react'
@@ -14,6 +14,7 @@ import TheInputForm from '../../../Components/TheInputForm/TheInputForm'
 import { HiOutlineX } from 'react-icons/hi'
 import { RiCheckFill } from 'react-icons/ri'
 import '../style.css'
+import Modal from 'react-bootstrap/Modal'
 export default function CategoryEditOchCreate(props) {
 
 
@@ -124,7 +125,9 @@ export default function CategoryEditOchCreate(props) {
 
     return <Modal
         show={editCategory?.value}
-        onHide={HandleClose} >
+        onHide={HandleClose}
+        fullscreen='sm-down'
+        >
 
 
         <HandleLoadingPage

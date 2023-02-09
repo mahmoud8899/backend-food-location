@@ -1,4 +1,4 @@
-import { Row, Col, Modal, Form } from 'react-bootstrap'
+import { Row, Col, Form } from 'react-bootstrap'
 import ButtomClick from '../../Components/Buttom/Buttom'
 import { user_Login, singUp_action, ForgetPasswordAction, CheckUser } from '../../redux/Action/Auth_Action'
 import { useDispatch, useSelector } from 'react-redux'
@@ -14,7 +14,7 @@ import { ErrorTextInput } from '../../Assistant/TextError'
 import LogIn from './LogIn'
 import SingUp from './SingUp'
 import './style.css'
-
+import Modal from 'react-bootstrap/Modal'
 
 
 
@@ -204,6 +204,7 @@ const LoginScreen = (props) => {
 
     return loginOpen && <Modal
         className='model-css'
+        fullscreen='sm-down'
         show={loginOpen}
         onHide={HandleCloseEvery}
     >

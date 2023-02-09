@@ -1,4 +1,4 @@
-import { Container, Row, Col, Modal } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import UserNavBarScreen from '../UserNavBarScreen/UserNavBarScreen'
 import Styles from '../../../Components/Update/StylesComponents/style'
 import CreateNewAddress from '../../../Components/MyAddress/CreateNewAddress'
@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import ShowListAddress from './ShowListAddress'
 import '../UserProfileScreen/Profile.css'
-
+import Modal from 'react-bootstrap/Modal'
 export default function UserAddresScreen(props) {
 
     const { history } = props
@@ -150,7 +150,7 @@ export default function UserAddresScreen(props) {
                 <Row className="justify-content-center" >
 
 
-                    <Modal show={openAddres.value} onHide={HandleClose} >
+                    <Modal  fullscreen='sm-down' show={openAddres.value} onHide={HandleClose} >
                         <HandleLoadingPage
                             loading={loading}
                             ErrorText={ErrorServer}

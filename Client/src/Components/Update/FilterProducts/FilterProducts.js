@@ -4,10 +4,9 @@ import { useDispatch, useSelector } from 'react-redux'
 import LoadingErrorHandle from '../LoadingErrorHandle/LoadingErrorHandle'
 import { FilterCategory } from '../UseContext/FilterCategoryScreen'
 import { BsFilterRight } from 'react-icons/bs'
-import { Modal } from 'react-bootstrap'
 import ButtomClick from '../../Buttom/Buttom'
 import Styles from '../StylesComponents/style'
-
+import Modal from 'react-bootstrap/Modal'
 
 export default function FilterProducts(props) {
 
@@ -83,7 +82,7 @@ export default function FilterProducts(props) {
         </div>
 
 
-        <Modal show={show} onHide={() => setShow(false)}>
+        <Modal show={show} onHide={() => setShow(false)} fullscreen='sm-down'>
 
             <div className='Title-name-products-text  add-padding-filter'>
 

@@ -1,9 +1,8 @@
 
-import { Modal } from 'react-bootstrap'
 import { HiOutlineX } from 'react-icons/hi'
 import MapsLocation from '../Home/MapsLocation/MapsLocation'
 import './style.css'
-
+import Modal from 'react-bootstrap/Modal'
 
 export default function RestaurangetsDescription(props) {
 
@@ -21,7 +20,7 @@ export default function RestaurangetsDescription(props) {
 
 
 
-    return <Modal show={openDescription} onHide={() => setOpenDescription(!openDescription)}>
+    return <Modal  fullscreen='sm-down'show={openDescription} onHide={() => setOpenDescription(!openDescription)}>
 
 
 

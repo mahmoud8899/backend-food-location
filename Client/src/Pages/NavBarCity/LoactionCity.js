@@ -1,11 +1,10 @@
-import { Modal } from 'react-bootstrap'
 import './NavBarCity.css'
 import { useSelector } from 'react-redux'
 import { useState } from 'react'
 import NotUserSerchingCity from './NotUserSerchingCity'
 import ActiveUserSearchCity from './ActiveUserSearchCity'
 import { HiOutlineX, HiArrowNarrowLeft } from 'react-icons/hi'
-
+import Modal from 'react-bootstrap/Modal'
 
 
 export default function LoactionCity(props) {
@@ -64,7 +63,7 @@ export default function LoactionCity(props) {
 
 
 
-    return <Modal show={showCity} onHide={TheCloseAll}>
+    return <Modal show={showCity} onHide={TheCloseAll} fullscreen='sm-down'>
         <div className='first-city-location add-padding-loaction'>
             <div>
                 {openAddres.value || openSelectionCity ?

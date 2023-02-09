@@ -6,7 +6,7 @@ import { HiArrowNarrowLeft } from 'react-icons/hi'
 import { AddAddressAction } from '../../../redux/Action/Auth_Action'
 import { useDispatch, useSelector } from 'react-redux'
 import CreateNewAddress from '../../../Components/MyAddress/CreateNewAddress'
-import { Modal } from 'react-bootstrap'
+import Modal from 'react-bootstrap/Modal'
 
 export default function PaymentDetailsAddres(props) {
 
@@ -103,7 +103,7 @@ export default function PaymentDetailsAddres(props) {
 
 
             {openAddresScreen ?
-                <Modal show={openAddresScreen} onHide={() => setOpenAddresScreen(!openAddresScreen)}>
+                <Modal fullscreen='sm-down' show={openAddresScreen} onHide={() => setOpenAddresScreen(!openAddresScreen)}>
 
                     <div className='first-city-location add-padding-loaction'>
                         <HiArrowNarrowLeft

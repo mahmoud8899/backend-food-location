@@ -1,4 +1,4 @@
-import { Form, Modal, Row, Col } from 'react-bootstrap'
+import { Form,  Row, Col } from 'react-bootstrap'
 import ButtomClick from '../../../Components/Buttom/Buttom'
 import ImageScreen from '../../../Components/ImageScreen/ImageScreen'
 import { useDispatch, useSelector } from 'react-redux'
@@ -19,6 +19,7 @@ import { HiOutlineX } from 'react-icons/hi'
 import CreateFoodType from './CreateFoodType'
 import TheInputForm from '../../../Components/TheInputForm/TheInputForm'
 import { RiCheckFill } from 'react-icons/ri'
+import Modal from 'react-bootstrap/Modal'
 
 export default function EditCartInfo(props) {
 
@@ -223,7 +224,7 @@ export default function EditCartInfo(props) {
 
 
 
-    return <Modal show={props?.show?.value} onHide={HandleClose}>
+    return <Modal show={props?.show?.value} onHide={HandleClose} fullscreen='sm-down' >
 
         <HandleLoadingPage
             loading={loading}

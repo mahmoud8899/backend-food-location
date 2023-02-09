@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { createContext } from 'react'
-import { Modal } from "react-bootstrap";
+import Modal from 'react-bootstrap/Modal'
 // import { RemoveLocationUserAction } from "../../redux/Action/LoactionUserAction";
 import { AddAddressAction } from "../../redux/Action/Auth_Action";
 import { useDispatch, useSelector } from 'react-redux'
@@ -126,7 +126,7 @@ export default function LocationPage({ children }) {
         locationUser,
     }}>
         {openSelectCity ?
-            <Modal show={openSelectCity} onHide={handleClose}>
+            <Modal show={openSelectCity} onHide={handleClose} fullscreen='sm-down'>
 
                 <LocationSelectCity
                     HandleAddCityLocation={HandleAddCityLocation}

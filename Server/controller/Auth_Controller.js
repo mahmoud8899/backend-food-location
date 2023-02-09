@@ -252,14 +252,6 @@ exports.singup = async (req, res) => {
 
     const { firstname, telephone, lastname, email, password } = req.body
 
-
-
-
-    // if (email.startsWith(" ") || email.endsWith(" ") ||
-    //     username.startsWith(" ") || username.endsWith(" ") ||
-    //     password.startsWith(" ") || password.endsWith(" ")
-    // ) return res.status(404).json({ message: `Not Empty` })
-
     try {
         let user = await Auth.findOne({ email })
         if (user) return res.status(404).json({ message: `We have the same ${email} you can log in ` })
